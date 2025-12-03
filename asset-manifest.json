@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/personal-expense-tracker-using-reactjs/static/css/main.f46eb627.css",
+    "main.js": "/personal-expense-tracker-using-reactjs/static/js/main.331b29f8.js",
+    "index.html": "/personal-expense-tracker-using-reactjs/index.html",
+    "main.f46eb627.css.map": "/personal-expense-tracker-using-reactjs/static/css/main.f46eb627.css.map",
+    "main.331b29f8.js.map": "/personal-expense-tracker-using-reactjs/static/js/main.331b29f8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f46eb627.css",
+    "static/js/main.331b29f8.js"
+  ]
+}
