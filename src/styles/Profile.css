@@ -1,0 +1,125 @@
+/* Profile.css */
+
+.profile {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.profile-header {
+  margin-bottom: 2rem;
+}
+
+.profile-header h1 {
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.profile-content {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-card {
+  background-color: #2d2d2d;
+  border-radius: 12px;
+  padding: 2rem;
+  border: 1px solid #404040;
+  width: 100%;
+  max-width: 500px;
+}
+
+.user-info {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #404040;
+}
+
+.user-info h2 {
+  color: #ffffff;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.info-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding: 0.5rem 0;
+}
+
+.info-item label {
+  color: #cccccc;
+  font-weight: 500;
+}
+
+.info-item span {
+  color: #ffffff;
+}
+
+.income-section {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #404040;
+}
+
+.income-section h3 {
+  color: #ffffff;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.income-section .form-group {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.income-input {
+  flex: 1;
+  padding: 0.75rem;
+  border: 1px solid #404040;
+  border-radius: 8px;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.income-input:focus {
+  outline: none;
+  border-color: #20B2AA;
+}
+
+.save-btn {
+  padding: 0.75rem 1.5rem;
+  background-color: #20B2AA;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.save-btn:hover {
+  background-color: #1a9999;
+}
+
+.actions-section {
+  text-align: center;
+}
+
+.logout-btn {
+  padding: 0.75rem 2rem;
+  background-color: #ff4444;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: #cc3333;
+}

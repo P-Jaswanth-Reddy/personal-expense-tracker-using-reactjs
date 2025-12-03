@@ -1,0 +1,76 @@
+/* Navigation.css */
+
+.navigation {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 250px;
+  background-color: #2d2d2d;
+  border-right: 1px solid #404040;
+  z-index: 1000;
+}
+
+@media (max-width: 768px) {
+  .navigation {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+}
+
+.nav-header {
+  padding: 2rem 1.5rem 1rem;
+  border-bottom: 1px solid #404040;
+}
+
+.nav-header h2 {
+  color: #20B2AA;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li {
+  margin: 0;
+}
+
+.nav-link {
+  display: block;
+  padding: 1rem 1.5rem;
+  color: #cccccc;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  background-color: #404040;
+  color: #20B2AA;
+}
+
+.nav-link.active {
+  background-color: #20B2AA;
+  color: white;
+}
+
+.logout-btn {
+  margin-top: 2rem;
+  border-top: 1px solid #404040;
+}
+
+.logout-btn:hover {
+  background-color: #ff4444 !important;
+  color: white !important;
+}

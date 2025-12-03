@@ -1,0 +1,64 @@
+/* AddExpense.css */
+
+.add-expense {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.add-expense-card {
+  background-color: #2d2d2d;
+  border-radius: 12px;
+  padding: 2rem;
+  border: 1px solid #404040;
+}
+
+.add-expense-card h1 {
+  color: #ffffff;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.reset-btn {
+  flex: 1;
+  padding: 0.75rem;
+  background-color: #666;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.reset-btn:hover {
+  background-color: #777;
+}
+
+.add-expense-btn {
+  flex: 2;
+  padding: 0.75rem;
+  background-color: #20B2AA;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.add-expense-btn:hover {
+  background-color: #1a9999;
+}
+
+.add-expense-btn:disabled {
+  background-color: #666;
+  cursor: not-allowed;
+}
