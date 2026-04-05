@@ -12,6 +12,20 @@ This project is a Personal Expense Tracker built using ReactJS. It allows users 
 - **GitHub Repository**: [Link to Repository](https://github.com/P-Jaswanth-Reddy/personal-expense-tracker-using-reactjs)
 - **Live Demo**: [Live Demo Link](https://p-jaswanth-reddy.github.io/personal-expense-tracker-using-reactjs/) 
 
+## Screenshots
+
+Login page  
+![Login](assets/screenshots/login.png)
+
+Dashboard overview  
+![Dashboard](assets/screenshots/dashboard.png)
+
+Categories page  
+![Categories](assets/screenshots/categories.png)
+
+Google Sign-in popup  
+![Google Sign-in](assets/screenshots/login_popup.png)
+
 ## Features
 - Add, edit, and delete expenses.
 - Categorize expenses.
