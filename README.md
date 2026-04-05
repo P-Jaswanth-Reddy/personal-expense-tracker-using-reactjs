@@ -17,14 +17,16 @@ This project is a Personal Expense Tracker built using ReactJS. It allows users 
 Login page  
 ![Login](assets/screenshots/login.png)
 
+Google Sign-in popup  
+![Google Sign-in](assets/screenshots/login_popup.png)
+
 Dashboard overview  
 ![Dashboard](assets/screenshots/dashboard.png)
 
 Categories page  
 ![Categories](assets/screenshots/categories.png)
 
-Google Sign-in popup  
-![Google Sign-in](assets/screenshots/login_popup.png)
+
 
 ## Features
 - Add, edit, and delete expenses.
